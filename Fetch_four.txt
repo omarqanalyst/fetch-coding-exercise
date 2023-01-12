@@ -1,0 +1,23 @@
+Subject: Data Quality Issues and Optimization Opportunities
+
+Hi,
+
+I hope this message finds you well. I have some questions about the data set and was wondering if you could help or know who can.
+
+Questions:
+
+1. Are there any specific business objectives or KPIs that we are trying to track with this data?
+2. Are there any known data quality issues that we should be aware of?
+
+After exploring the data set, I wanted to bring to your attention some data quality issues and optimization opportunities that I have identified while working with our receipts, users, and brand data:
+
+1. There are duplicate entries in the data. These can be resolved by dropping identical rows. If there are duplicate primary keys but distinct column data, they will have to be observed more closely before making a decision on how to proceed.
+2. Nested data for columns needs to be extracted to a new table or deconstructed to new columns. This would facilitate future querying. Refer to console.log outputs for file exploreDFS.js. Additional data quality checks can include data validation checks, cross-referencing with external data sources, and identifying inconsistencies in the data.
+
+To resolve the data quality issues, I would need access to more information about the data's origins, such as the source systems, data collection methods, and data governance procedures. Additionally, I would need to work with stakeholders to understand the intended use of the data and how it aligns with our business objectives. In regards to optimizing the data assets, I would need to know more about the data's structure, relationships, and data lineage. Additionally, it would be helpful to know about any historical trends or patterns in the data that we could leverage for insights and predictions.
+
+As the company grows and more data is collected, the existing query challenges such as the nested data are only going to increase. We should consider implementing a data warehousing solution to improve performance and scalability.
+
+Please let me know if you have any questions or if there is any other information that would be helpful for me to know. I look forward to discussing this further with you.
+Best,
+Omar Quintana
